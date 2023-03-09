@@ -1,0 +1,195 @@
+html {
+  box-sizing: border-box;
+}
+
+p, h1, h2 {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('/fonts/GothamPro.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('/fonts/GothamPro-Bold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('/fonts/GothamPro-Black.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  background-color: #E5E5E5;
+}
+
+:root {
+  --color-light: #fff;
+  --color-gray: #838383;
+  --color-dark: #1D1D1F;
+  --offset: 190px;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 750px;
+  height: 449px;
+  display: flex;
+  position: relative;
+}
+
+.section__info {
+  width: 310px;
+  background-color: #EFEFEF;
+  padding: 49px 12px;
+  border-radius: 20px 0 0 20px;
+}
+
+.section__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 20px 20px 0;
+  background-color: #FFFFFF;
+  padding: 28px 58px;
+}
+
+.section__info-text {
+  font-weight: 900;
+  font-size: 92px;
+  line-height: 88px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #000000;
+  mix-blend-mode: soft-light;
+}
+
+.book {
+  width: 394px;
+  height: 337px;
+  position: absolute;
+  left: -50px;
+  top: 46px;
+}
+
+.arrow {
+  position: absolute;
+  width: 120px;
+  height: 59.69px;
+  left: 229px;
+  top: 323.5px;
+}
+
+.section__form-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  margin-bottom: 48px;
+}
+
+.title-info {
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.section__form-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13px;
+  color: #0D0D0D;
+  margin-bottom: 7px;
+}
+
+.descr-info {
+  font-size: 14px;
+  line-height: 13px;
+  margin-bottom: 15px;
+}
+
+.descr-steps {
+  font-size: 12px;
+  line-height: 11px;
+  margin-bottom: 34px;
+}
+
+.descr-lable {
+  font-size: 12px;
+  line-height: 11px;
+  margin-bottom: 6px;
+}
+
+.section__form-input {
+  padding-left: 15px;
+  width: 323px;
+  height: 50px;
+  border: 2px solid #F3CE00;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.section__form-input::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  color: #0D0D0D;
+}
+
+.section__form-btn {
+  width: 323px;
+  height: 50px;
+  background: linear-gradient(92.64deg, #FF5621 29.24%, #F21313 83.67%);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 110%;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* . */
+
+
+
